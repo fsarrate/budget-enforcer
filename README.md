@@ -38,8 +38,8 @@ When your spending crosses the threshold, a Lambda function automatically attach
                    │             │             │
                    v             v             v
               ┌─────────┐  ┌─────────┐  ┌───────────┐
-              │  Email   │  │  Email   │  │ SNS Topic │
-              │  Alert   │  │  Alert   │  └─────┬─────┘
+              │  Email  │  │  Email  │  │ SNS Topic │
+              │  Alert  │  │  Alert  │  └─────┬─────┘
               └─────────┘  └─────────┘        │
                                          ┌────┴────┐
                                          │         │
